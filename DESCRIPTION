@@ -2,9 +2,9 @@ Package: RMSDp
 Type: Package
 Title: Refined Modified Stahel-Donoho (MSD) Estimators for Outlier
         Detection (Parallel Version)
-Version: 0.1.0
+Version: 0.1.1
 Suggests: testthat (>= 3.0.0)
-Depends: stats
+Depends: R (>= 2.10), stats
 Imports: parallel, doParallel, foreach
 Authors@R: person(given="Kazumi", family="Wada", role=c("aut", "cre"), email = "kazwd2008@gmail.com", comment=c(ORCID = "0000-0002-9578-1588"))
 Description: 
@@ -12,11 +12,12 @@ Description:
 License: GPL (>= 3)
 Encoding: UTF-8
 Language: en-US
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Config/testthat/edition: 3
+LazyData: true
 NeedsCompilation: no
-Packaged: 2023-11-15 13:27:22 UTC; wada
+Packaged: 2024-06-10 13:48:49 UTC; wada
 Author: Kazumi Wada [aut, cre] (<https://orcid.org/0000-0002-9578-1588>)
 Maintainer: Kazumi Wada <kazwd2008@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-11-16 20:34:02 UTC
+Date/Publication: 2024-06-12 21:00:21 UTC
